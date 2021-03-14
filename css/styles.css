@@ -1,0 +1,381 @@
+body{
+margin: 0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+background-color: #fff;
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fixed-bg {
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3em;
+}
+
+.fas{
+    padding-right: 5px;
+}
+
+
+
+.sub-header #open  {
+    float: right;
+     color: cornsilk;
+    font-size: 35px;
+    margin-top:5% ;
+    margin-right: 5%;
+    cursor: pointer;
+ }
+
+#close{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    color: cornsilk;
+   font-size: 40px;
+   cursor: pointer; 
+}
+
+.sub-header #open.hide{
+    display: none;
+}
+
+.overlay{
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .6s;
+    z-index: 3;
+    width: 100%;
+}
+
+.overlay nav ul{
+    flex-direction: column;
+    margin-left: -70px;
+
+}
+
+.overlay.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.overlay.show li{
+    opacity: 1;
+    transform: none;
+}
+
+.overlay ul li{
+    padding: 15px 0;
+    border-bottom: 1px solid cornsilk;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .3s,transform 0.3s;
+    display: block;
+}
+
+
+.overlay ul li a{
+    color:cornsilk;
+    display: block;
+}
+
+.overlay ul li a:hover{
+    opacity:0.7; 
+}
+
+
+nav{
+    width: 100%;
+    background-color:grey;
+    opacity: 0.7;
+    position: fixed;
+    z-index:1 ;
+    top:0;
+  
+}
+
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+
+nav li {
+    margin-left: 30px;
+    transition: all  0.3s ease;
+  }
+  nav li a {
+    color: #fff;
+    font-weight: bold;
+    transition: all  0.3s ease;
+    filter: drop-shadow(1px 1px 2px #121212);
+  }
+  nav li a:hover {
+    color: #e03131;
+  }
+
+.menu-img {
+   background-image:url("../img/basketball.jpg") ;
+   margin-top: -20px;
+   height: 100vh;
+   position: relative;
+   z-index: 0;
+  
+}
+
+.main-title{
+   position: absolute;
+   top:25%;
+   left :20%;
+}
+
+.main-title h1{
+  font-size: 70px;
+  color: #fff;
+  font-style:inherit;
+}
+
+.main-title p{
+    color: #fff;
+    font-size: 40px;
+    left: 37%;
+    top:60%;
+    font-family: initial;
+    position: absolute;
+}
+
+.sub-title{
+    position: absolute;
+    bottom:10%;
+    right: 5%;
+    background-color: white;
+    padding:10px 20px;  
+}
+
+.sub-title p{
+    text-align: left;
+    line-height: 2;
+
+}
+
+.about-wrapper{
+    display: flex;
+}
+
+.about-left{
+    width: 50%;
+    
+}
+
+.about-coment{
+    width:70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.about-left img{
+border-radius: 50%;
+width: 300px;
+margin: 0 auto;
+display: block;
+}
+
+.about-table{
+   width: 50%;
+
+}
+
+table{
+    border: 1px solid rgba(170,170,170,0.48);
+    font-weight: bold;
+    text-indent: initial;
+    display: table;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+
+}
+
+td{
+    border: 1px solid rgba(170,170,170,0.48); 
+    border-color: grey;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#skills{
+    margin-top: 100px;
+    color:#fff;
+    font-size:20px;
+
+
+}
+
+.skills-img{
+    background-image: url(../img/programing.jpg);
+    position: relative;
+    height: 650px;
+}
+
+.lessons{
+    display: flex;
+    text-align: center;
+}
+
+.lesson{
+    margin: 20px 0;
+    width: 20%;
+    line-height: 10px;
+}
+
+.lesson-icon{
+   font-size:80px;
+}
+
+.lesson-icon p{
+    font-size: 30px;
+    color: gold;
+}
+
+.lesson-coment{
+    font-size: 16px;
+    line-height: 2;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#works{
+    text-align: center;
+    width: 100%;
+    margin-top: -40px;
+}
+
+#works h2{
+    color:white;
+}
+
+.works-img p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.works-img{
+    background-image: url(../img/cafe.jpg);
+    position: relative;
+    height: 600px;
+}
+
+.works-wrapper{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.sample{
+    width: 30%;
+    border:1px solid #fff;
+    margin: 0 auto;
+    
+}
+
+
+.sample img{
+    width: 100%;
+    transition: 0.1s;
+    
+}
+
+#works .sample-info {
+   font-size: 14px;
+   
+}
+
+#works .sample-subinfo{
+    font-size: 14px;
+}
+
+.sample img:hover{
+   opacity: 0.7;
+}
+
+.sample-title{
+    font-weight: bold;
+}
+
+#contact{
+    text-align: center;
+    background-color: rgba(93, 133, 201, 0.25);
+    padding-bottom: 50px;
+    margin-top: -40px;
+}
+
+.mail h2 a{
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.mail h2 a:hover{
+    color: grey;
+}
+
+.or{
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+.contact-icon ul{
+    display: flex;
+    justify-content: center;
+} 
+
+.contact-icon ul li{
+  font-size: 40px;
+ 
+}
+
+.contact-icon ul li a{
+    color: rgb(14, 12, 12);
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.contact-icon ul li a:hover{
+color: grey;
+}
+
+footer{
+    text-align: center;
+    height: 80px;   
+    line-height: 80px;
+}
+
+
+
+
+

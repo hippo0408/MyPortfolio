@@ -1,0 +1,78 @@
+@media(max-width:780px){
+    .header-title{
+        display: none;
+    }
+
+    .menu-img{
+        width: 100%;
+    }
+
+    .overlay{
+        width: 100vw;
+    }
+
+    .main-title{
+        top:15%;
+        left:10%
+    }
+
+    .main-title h1{
+        font-size: 40px;
+    }
+
+    .main-title p{
+        font-size: 30px;
+        left: 35%;
+        top:65%;
+    }
+    .sub-title{
+        opacity: 0.7;
+        margin: 0 auto;
+    }
+
+    .about-wrapper{
+        flex-direction: column;
+    }
+
+    .about-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-table{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .lessons{
+        flex-direction: column;
+    }
+
+    .lesson{
+        width: 100%;
+    }
+
+    .skills-img{
+       height: 1700px;
+    }
+   
+    .works-wrapper{
+        flex-direction: column;
+    }
+
+    .sample{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .works-img{
+        height: 1600px;
+    }
+    
+}
+
+@media(min-width:780px){
+    .sub-header{
+        display: none;
+    } 
+ }
