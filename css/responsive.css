@@ -22,8 +22,8 @@
 
     .main-title p{
         font-size: 30px;
-        left: 35%;
-        top:65%;
+        left: 25%;
+        top:75%;
     }
     .sub-title{
         opacity: 0.7;
@@ -53,7 +53,7 @@
     }
 
     .skills-img{
-       height: 1700px;
+       height: 1900px;
     }
    
     .works-wrapper{
@@ -66,7 +66,7 @@
     }
 
     .works-img{
-        height: 1600px;
+        height: 1500px;
     }
     
 }
