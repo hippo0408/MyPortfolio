@@ -114,21 +114,20 @@ nav{
     opacity: 0.7;
     position: fixed;
     z-index:1 ;
-    top:0;
-  
+    top:0;  
 }
 
 .header ul{
     display: flex;
     justify-content: flex-end;
     margin-right: 50px;
-
 }
 
 nav li {
     margin-left: 30px;
     transition: all  0.3s ease;
   }
+
   nav li a {
     color: #fff;
     font-weight: bold;
@@ -295,26 +294,22 @@ td{
 .works-wrapper{
  display: flex;
  justify-content: space-between;
-
 }
 
 .sample{
     width: 30%;
     border:1px solid #fff;
     margin: 0 auto;
-    
 }
 
 
 .sample img{
     width: 100%;
-    transition: 0.1s;
-    
+    transition: 0.1s;  
 }
 
 #works .sample-info {
    font-size: 14px;
-   
 }
 
 #works .sample-subinfo{
@@ -356,8 +351,7 @@ td{
 } 
 
 .contact-icon ul li{
-  font-size: 40px;
- 
+  font-size: 40px; 
 }
 
 .contact-icon ul li a{
@@ -367,7 +361,7 @@ td{
 }
 
 .contact-icon ul li a:hover{
-color: grey;
+   color: grey;
 }
 
 footer{
