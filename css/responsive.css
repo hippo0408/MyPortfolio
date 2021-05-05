@@ -63,10 +63,11 @@
     .sample{
         width: 80%;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .works-img{
-        height: 1300px;
+        height: 2600px;
     }
     
 }
