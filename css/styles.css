@@ -278,6 +278,7 @@ td{
 
 #works h2{
     color:white;
+    padding-top: 30px;
 }
 
 .works-img p{
@@ -288,18 +289,20 @@ td{
 .works-img{
     background-image: url(../img/cafe.jpg);
     position: relative;
-    height: 600px;
+    height: 1200px;
 }
 
 .works-wrapper{
  display: flex;
  justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sample{
     width: 30%;
     border:1px solid #fff;
     margin: 0 auto;
+    margin-top: 80px;
 }
 
 
